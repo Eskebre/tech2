@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:MachineBlock"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.DYE#11",
+      "",
+      "Items.DYE#13",
+      "CUSTOM:MachineBlock",
+      "Items.DYE#6",
+      "",
+      "Items.CAULDRON",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Dyer",
+    "name": "dyer_recipe",
+    "namespace": "mod"
+  }
+}

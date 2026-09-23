@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tech2:machine_block",
+    "minecraft:piston"
+  ],
+  "result": {
+    "id": "tech2:block_placer",
+    "count": 1
+  }
+}

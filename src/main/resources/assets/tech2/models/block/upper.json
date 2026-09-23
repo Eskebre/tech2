@@ -1,0 +1,10 @@
+{
+  "parent": "tech2:custom/upper",
+  "textures": {
+    "all": "minecraft:block/hopper_outside",
+    "particle": "minecraft:block/hopper_outside",
+    "0": "minecraft:block/hopper_inside",
+    "1": "minecraft:block/hopper_outside",
+    "2": "minecraft:block/hopper_top"
+  }
+}

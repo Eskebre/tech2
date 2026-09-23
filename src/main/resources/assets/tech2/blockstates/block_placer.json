@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tech2:block/block_placer"
+    },
+    "facing=east": {
+      "model": "tech2:block/block_placer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tech2:block/block_placer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tech2:block/block_placer",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "tech2:block/block_placer",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "tech2:block/block_placer",
+      "x": 90
+    }
+  }
+}

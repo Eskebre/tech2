@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tech2:block/machine_texture",
+    "up": "tech2:block/machine_texture",
+    "north": "tech2:block/machine_texture",
+    "east": "tech2:block/machine_texture",
+    "south": "tech2:block/machine_texture",
+    "west": "tech2:block/machine_texture",
+    "particle": "tech2:block/machine_texture"
+  }
+}

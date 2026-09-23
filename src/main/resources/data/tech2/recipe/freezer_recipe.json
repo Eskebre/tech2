@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": "#minecraft:wool",
+    "b": "minecraft:blue_ice",
+    "c": "tech2:machine_block",
+    "d": "minecraft:hopper"
+  },
+  "result": {
+    "id": "tech2:freezer",
+    "count": 1
+  }
+}

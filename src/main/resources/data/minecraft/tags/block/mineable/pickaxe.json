@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tech2:upper",
+    "tech2:block_placer",
+    "tech2:dyer",
+    "tech2:crusher",
+    "tech2:machine_block",
+    "tech2:freezer",
+    "tech2:cobblestone_generator",
+    "tech2:block_breaker"
+  ]
+}

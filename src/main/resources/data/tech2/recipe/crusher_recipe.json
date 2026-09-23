@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:piston",
+    "b": "tech2:machine_block",
+    "c": "minecraft:hopper"
+  },
+  "result": {
+    "id": "tech2:crusher",
+    "count": 1
+  }
+}

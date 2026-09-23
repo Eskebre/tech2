@@ -1,0 +1,235 @@
+{
+  "model": {
+    "type": "tech2:legacy_overrides",
+    "overrides": [
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 1
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_0"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 2
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_1"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_2"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 4
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_3"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 5
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_4"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 6
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_5"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 7
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_6"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 8
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_7"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 9
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_8"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 10
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_9"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 11
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_10"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 12
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_11"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 13
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_12"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 14
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_13"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 15
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_14"
+        }
+      },
+      {
+        "predicate": [
+          {
+            "property": {
+              "property": "tech2:basket/color"
+            },
+            "value": 16
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "tech2:item/basket_15"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "tech2:item/basket"
+    }
+  }
+}

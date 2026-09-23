@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "converthopper",
+  "category": "redstone",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:hopper"
+  },
+  "result": {
+    "id": "tech2:upper",
+    "count": 1
+  }
+}

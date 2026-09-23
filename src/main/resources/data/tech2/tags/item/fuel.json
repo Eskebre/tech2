@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dried_kelp_block",
+    "minecraft:coal_block",
+    "minecraft:coal",
+    "minecraft:charcoal"
+  ]
+}

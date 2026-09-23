@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "minecraft:chest"
+  },
+  "result": {
+    "id": "tech2:basket",
+    "count": 1
+  }
+}

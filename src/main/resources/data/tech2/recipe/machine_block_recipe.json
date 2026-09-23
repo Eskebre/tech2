@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "#c:stones"
+  },
+  "result": {
+    "id": "tech2:machine_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "minecraft:yellow_dye",
+    "b": "minecraft:magenta_dye",
+    "c": "tech2:machine_block",
+    "d": "minecraft:cyan_dye",
+    "e": "minecraft:cauldron"
+  },
+  "result": {
+    "id": "tech2:dyer",
+    "count": 1
+  }
+}

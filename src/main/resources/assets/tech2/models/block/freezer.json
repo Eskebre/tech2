@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tech2:block/freezer_top",
+    "up": "tech2:block/freezer_top",
+    "north": "tech2:block/freezer_side",
+    "east": "tech2:block/freezer_side",
+    "south": "tech2:block/freezer_side",
+    "west": "tech2:block/freezer_side",
+    "particle": "tech2:block/freezer_top"
+  }
+}

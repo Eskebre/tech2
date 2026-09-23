@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:MachineBlock"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:MachineBlock",
+      "Blocks.PISTON",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BlockPlacer",
+    "name": "block_placer_recipe",
+    "namespace": "mod"
+  }
+}

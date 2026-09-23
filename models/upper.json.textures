@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:hopper_inside",
+        "1": "minecraft:hopper_outside",
+        "2": "minecraft:hopper_top"
+      }
+    }
+  }
+}

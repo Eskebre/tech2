@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:iron_pickaxe",
+    "b": "tech2:machine_block",
+    "c": "minecraft:hopper"
+  },
+  "result": {
+    "id": "tech2:cobblestone_generator",
+    "count": 1
+  }
+}

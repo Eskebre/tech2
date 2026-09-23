@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.CHEST"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.STICK",
+      "Items.STICK",
+      "Items.STICK",
+      "Items.STICK",
+      "Blocks.CHEST",
+      "Items.STICK",
+      "Items.STICK",
+      "Items.STICK",
+      "Items.STICK"
+    ],
+    "recipeReturnStack": "CUSTOM:Basket",
+    "name": "basket_recipe",
+    "namespace": "mod"
+  }
+}

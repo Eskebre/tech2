@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:MachineBlock"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.IRON_PICKAXE",
+      "",
+      "",
+      "CUSTOM:MachineBlock",
+      "",
+      "",
+      "Blocks.HOPPER",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CobblestoneGenerator",
+    "name": "cobblestone_generator_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "tech2:upper",
+    {
+      "id": "#minecraft:shulker_boxes",
+      "required": false
+    },
+    {
+      "id": "#minecraft:wooden_shelves",
+      "required": false
+    },
+    "minecraft:hopper",
+    "minecraft:barrel",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:chiseled_bookshelf",
+    {
+      "id": "#minecraft:copper_chests",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+gradle/
+.eclipse/
+.gradle/
+run/
+.git/
+build/
+.mcreator/

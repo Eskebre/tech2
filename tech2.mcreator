@@ -1,0 +1,1214 @@
+{
+  "mod_elements": [
+    {
+      "name": "Upper",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upper",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/block/UpperBlock.java",
+          "src/main/java/com/eskebre/techsquared/block/entity/UpperBlockEntity.java",
+          "src/main/resources/data/tech2/loot_table/blocks/upper.json",
+          "src/main/resources/assets/tech2/models/block/upper.json",
+          "src/main/resources/assets/tech2/blockstates/upper.json",
+          "src/main/resources/assets/tech2/items/upper.json",
+          "src/main/resources/assets/tech2/models/item/upper.json"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "UpperGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upper_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/world/inventory/UpperGuiMenu.java",
+          "src/main/java/com/eskebre/techsquared/client/gui/UpperGuiScreen.java"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "UpperCustomName",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "upper_custom_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/UpperCustomNameProcedure.java"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "PlaceItemInInventory",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_item_in_inventory",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "item",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/PlaceItemInInventoryProcedure.java"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "TransferItemFromInventory",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transfer_item_from_inventory",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "x_to",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "y_to",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "z_to",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/TransferItemFromInventoryProcedure.java"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "UpperTransferItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upper_transfer_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/UpperTransferItemProcedure.java"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "UpperRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/upper_recipe.json",
+          "src/main/resources/data/tech2/recipe/upper_recipe.json"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "UpperConversion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upper_conversion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/upper_conversion.json",
+          "src/main/resources/data/tech2/recipe/upper_conversion.json"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "HopperConversion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hopper_conversion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/hopper_conversion.json",
+          "src/main/resources/data/tech2/recipe/hopper_conversion.json"
+        ]
+      },
+      "path": "~/Upper"
+    },
+    {
+      "name": "CobblestoneGenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/models/block/cobblestone_generator.json",
+          "src/main/java/com/eskebre/techsquared/block/CobblestoneGeneratorBlock.java",
+          "src/main/resources/assets/tech2/blockstates/cobblestone_generator.json",
+          "src/main/java/com/eskebre/techsquared/block/entity/CobblestoneGeneratorBlockEntity.java",
+          "src/main/resources/data/tech2/loot_table/blocks/cobblestone_generator.json",
+          "src/main/resources/assets/tech2/items/cobblestone_generator.json",
+          "src/main/resources/assets/tech2/models/item/cobblestone_generator.json"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "CobblestoneGeneratorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/world/inventory/CobblestoneGeneratorGUIMenu.java",
+          "src/main/java/com/eskebre/techsquared/client/gui/CobblestoneGeneratorGUIScreen.java"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "CobblestoneGeneratorOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/CobblestoneGeneratorOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "CobblestoneGeneratorUpdateState",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_update_state",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/CobblestoneGeneratorUpdateStateProcedure.java"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "FuelFromItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_from_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "item",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/FuelFromItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CobblestoneGeneratorInventorySlotAutomationTakeCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_inventory_slot_automation_take_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/CobblestoneGeneratorInventorySlotAutomationTakeConditionProcedure.java"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "CobblestoneGeneratorInventorySlotAutomationPlaceCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_inventory_slot_automation_place_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/CobblestoneGeneratorInventorySlotAutomationPlaceConditionProcedure.java"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "CrusherGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/client/gui/CrusherGUIScreen.java",
+          "src/main/java/com/eskebre/techsquared/world/inventory/CrusherGUIMenu.java"
+        ]
+      },
+      "path": "~/Crusher"
+    },
+    {
+      "name": "Crusher",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/block/CrusherBlock.java",
+          "src/main/resources/assets/tech2/models/block/crusher.json",
+          "src/main/resources/assets/tech2/blockstates/crusher.json",
+          "src/main/resources/assets/tech2/items/crusher.json",
+          "src/main/resources/assets/tech2/models/item/crusher.json",
+          "src/main/java/com/eskebre/techsquared/block/entity/CrusherBlockEntity.java",
+          "src/main/resources/data/tech2/loot_table/blocks/crusher.json"
+        ]
+      },
+      "path": "~/Crusher"
+    },
+    {
+      "name": "CrusherOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/CrusherOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Crusher"
+    },
+    {
+      "name": "CrusherInventorySlotAutomationPlaceCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_inventory_slot_automation_place_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/CrusherInventorySlotAutomationPlaceConditionProcedure.java"
+        ]
+      },
+      "path": "~/Crusher"
+    },
+    {
+      "name": "BasketGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basket_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/client/gui/BasketGUIScreen.java",
+          "src/main/java/com/eskebre/techsquared/world/inventory/BasketGUIMenu.java"
+        ]
+      },
+      "path": "~/Basket"
+    },
+    {
+      "name": "Basket",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/models/item/basket_13.json",
+          "src/main/java/com/eskebre/techsquared/item/BasketItem.java",
+          "src/main/resources/assets/tech2/models/item/basket_1.json",
+          "src/main/resources/assets/tech2/models/item/basket_7.json",
+          "src/main/java/com/eskebre/techsquared/item/inventory/BasketInventoryCapability.java",
+          "src/main/resources/assets/tech2/models/item/basket_4.json",
+          "src/main/resources/assets/tech2/models/item/basket_12.json",
+          "src/main/resources/assets/tech2/models/item/basket.json",
+          "src/main/resources/assets/tech2/models/item/basket_14.json",
+          "src/main/resources/assets/tech2/models/item/basket_9.json",
+          "src/main/resources/assets/tech2/models/item/basket_11.json",
+          "src/main/resources/assets/tech2/models/item/basket_2.json",
+          "src/main/resources/assets/tech2/models/item/basket_6.json",
+          "src/main/resources/assets/tech2/models/item/basket_15.json",
+          "src/main/resources/assets/tech2/models/item/basket_3.json",
+          "src/main/resources/assets/tech2/models/item/basket_5.json",
+          "src/main/resources/assets/tech2/models/item/basket_8.json",
+          "src/main/resources/assets/tech2/models/item/basket_0.json",
+          "src/main/resources/assets/tech2/models/item/basket_10.json",
+          "src/main/resources/assets/tech2/items/basket.json"
+        ]
+      },
+      "path": "~/Basket"
+    },
+    {
+      "name": "BlockPlacerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_placer_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/BlockPlacerOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "BlockPlacer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_placer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/models/block/block_placer.json",
+          "src/main/resources/assets/tech2/models/item/block_placer.json",
+          "src/main/java/com/eskebre/techsquared/block/entity/BlockPlacerBlockEntity.java",
+          "src/main/resources/assets/tech2/blockstates/block_placer.json",
+          "src/main/resources/data/tech2/loot_table/blocks/block_placer.json",
+          "src/main/resources/assets/tech2/items/block_placer.json",
+          "src/main/java/com/eskebre/techsquared/block/BlockPlacerBlock.java"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "BlockPlacerGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_placer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/client/gui/BlockPlacerGuiScreen.java",
+          "src/main/java/com/eskebre/techsquared/world/inventory/BlockPlacerGuiMenu.java"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "BlockBreakerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_breaker_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/BlockBreakerOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "BlockBreaker",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_breaker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/blockstates/block_breaker.json",
+          "src/main/java/com/eskebre/techsquared/block/BlockBreakerBlock.java",
+          "src/main/resources/assets/tech2/models/block/block_breaker.json",
+          "src/main/resources/data/tech2/loot_table/blocks/block_breaker.json",
+          "src/main/resources/assets/tech2/models/item/block_breaker.json",
+          "src/main/resources/assets/tech2/items/block_breaker.json"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "Freezer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/items/freezer.json",
+          "src/main/java/com/eskebre/techsquared/block/entity/FreezerBlockEntity.java",
+          "src/main/resources/data/tech2/loot_table/blocks/freezer.json",
+          "src/main/resources/assets/tech2/blockstates/freezer.json",
+          "src/main/resources/assets/tech2/models/block/freezer.json",
+          "src/main/java/com/eskebre/techsquared/block/FreezerBlock.java",
+          "src/main/resources/assets/tech2/models/item/freezer.json"
+        ]
+      },
+      "path": "~/Freezer"
+    },
+    {
+      "name": "FreezerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/client/gui/FreezerGUIScreen.java",
+          "src/main/java/com/eskebre/techsquared/world/inventory/FreezerGUIMenu.java"
+        ]
+      },
+      "path": "~/Freezer"
+    },
+    {
+      "name": "FreezerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezer_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/FreezerOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Freezer"
+    },
+    {
+      "name": "FreezerNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezer_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/FreezerNeighbourBlockChangesProcedure.java"
+        ]
+      },
+      "path": "~/Freezer"
+    },
+    {
+      "name": "STRFuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str_fuel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/STRFuelProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "UpdateAdjacent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "update_adjacent",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/UpdateAdjacentProcedure.java"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "BlockPlacerRedstoneOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_placer_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/BlockPlacerRedstoneOffProcedure.java"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "MachineBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/models/item/machine_block.json",
+          "src/main/resources/data/tech2/loot_table/blocks/machine_block.json",
+          "src/main/resources/assets/tech2/items/machine_block.json",
+          "src/main/java/com/eskebre/techsquared/block/MachineBlockBlock.java",
+          "src/main/resources/assets/tech2/blockstates/machine_block.json",
+          "src/main/resources/assets/tech2/models/block/machine_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Tech2Tab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tech_2_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MachineBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/machine_block_recipe.json",
+          "src/main/resources/data/tech2/recipe/machine_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CobblestoneGeneratorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/cobblestone_generator_recipe.json",
+          "src/main/resources/data/tech2/recipe/cobblestone_generator_recipe.json"
+        ]
+      },
+      "path": "~/CobblestoneGenerator"
+    },
+    {
+      "name": "CrusherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/crusher_recipe.json",
+          "src/main/resources/data/tech2/recipe/crusher_recipe.json"
+        ]
+      },
+      "path": "~/Crusher"
+    },
+    {
+      "name": "BlockPlacerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_placer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/recipe/block_placer_recipe.json",
+          "src/main/resources/data/tech2/advancement/recipes/block_placer_recipe.json"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "BlockBreakerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_breaker_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/advancement/recipes/block_breaker_recipe.json",
+          "src/main/resources/data/tech2/recipe/block_breaker_recipe.json"
+        ]
+      },
+      "path": "~/Block Modifiers"
+    },
+    {
+      "name": "FreezerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freezer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/recipe/freezer_recipe.json",
+          "src/main/resources/data/tech2/advancement/recipes/freezer_recipe.json"
+        ]
+      },
+      "path": "~/Freezer"
+    },
+    {
+      "name": "BasketRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/recipe/basket_recipe.json",
+          "src/main/resources/data/tech2/advancement/recipes/basket_recipe.json"
+        ]
+      },
+      "path": "~/Basket"
+    },
+    {
+      "name": "BasketPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basket_property_value_provider",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/BasketPropertyValueProviderProcedure.java"
+        ]
+      },
+      "path": "~/Basket"
+    },
+    {
+      "name": "Dyer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dyer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tech2/models/block/dyer.json",
+          "src/main/resources/assets/tech2/items/dyer.json",
+          "src/main/java/com/eskebre/techsquared/block/entity/DyerBlockEntity.java",
+          "src/main/resources/assets/tech2/models/item/dyer.json",
+          "src/main/java/com/eskebre/techsquared/block/DyerBlock.java",
+          "src/main/resources/assets/tech2/blockstates/dyer.json",
+          "src/main/resources/data/tech2/loot_table/blocks/dyer.json"
+        ]
+      },
+      "path": "~/Dyer"
+    },
+    {
+      "name": "DyerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dyer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/eskebre/techsquared/client/gui/DyerGUIScreen.java",
+          "src/main/java/com/eskebre/techsquared/world/inventory/DyerGUIMenu.java"
+        ]
+      },
+      "path": "~/Dyer"
+    },
+    {
+      "name": "DyerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dyer_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/DyerOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Dyer"
+    },
+    {
+      "name": "DyerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dyer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tech2/recipe/dyer_recipe.json",
+          "src/main/resources/data/tech2/advancement/recipes/dyer_recipe.json"
+        ]
+      },
+      "path": "~/Dyer"
+    },
+    {
+      "name": "GetColorIDFromItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_color_id_from_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/eskebre/techsquared/procedures/GetColorIDFromItemProcedure.java"
+        ]
+      },
+      "path": "~/Dyer"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Dyer@CUSTOM:Dyer",
+      "~MachineBlock@CUSTOM:MachineBlock",
+      "~CobblestoneGenerator@CUSTOM:CobblestoneGenerator",
+      "~BlockBreaker@CUSTOM:BlockBreaker",
+      "~BlockPlacer@CUSTOM:BlockPlacer",
+      "~Crusher@CUSTOM:Crusher",
+      "~Freezer@CUSTOM:Freezer",
+      "~Upper@CUSTOM:Upper"
+    ],
+    "ITEMS:tech2:fuel": [
+      "Blocks.COAL_BLOCK",
+      "Items.COAL#0",
+      "Items.COAL#1",
+      "Blocks.DRIED_KELP_BLOCK"
+    ],
+    "BLOCKS:tech2:unbreakable": [
+      "TAG:minecraft:wither_immune",
+      "Blocks.AIR"
+    ],
+    "BLOCKS:mod:upper_extractable": [
+      "CUSTOM:Upper",
+      "Blocks.HOPPER",
+      "Blocks.CHEST",
+      "Blocks.TRAPPED_CHEST",
+      "Blocks.BARREL",
+      "Blocks.CHISELED_BOOKSHELF",
+      "TAG:minecraft:shulker_boxes",
+      "TAG:minecraft:copper_chests",
+      "TAG:minecraft:wooden_shelves"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.tech2.upper": "Upper",
+      "gui.tech2.upper_gui.label_item_hopper": "Item Hopper",
+      "gui.tech2.upper_gui.label_inventory": "Inventory",
+      "item.tech2.cobblestone_generator": "Cobblestone Generator",
+      "gui.tech2.cobblestone_generator_gui.label_fuel": "Fuel:",
+      "gui.tech2.cobblestone_generator_gui.label_inventory": "Inventory",
+      "gui.tech2.cobblestone_generator_gui.label_cobblestone_generator": "Cobblestone Generator",
+      "gui.tech2.crusher_gui.label_inventory": "Inventory",
+      "gui.tech2.crusher_gui.label_input": "Input:",
+      "gui.tech2.crusher_gui.label_crusher": "Crusher",
+      "gui.tech2.crusher_gui.label_fuel": "Fuel:",
+      "gui.tech2.crusher_gui.label_output": "Output:",
+      "item.tech2.crusher": "Crusher",
+      "gui.tech2.basket_gui.label_inventory": "Inventory",
+      "gui.tech2.basket_gui.label_basket": "Basket",
+      "item.tech2.basket": "Basket",
+      "item.tech2.block_placer": "Block Placer",
+      "gui.tech2.block_placer_gui.label_block_placer": "Block Placer",
+      "gui.tech2.block_placer_gui.label_inventory": "Inventory",
+      "item.tech2.block_breaker": "Block Breaker",
+      "item.tech2.freezer": "Freezer",
+      "gui.tech2.freezer_gui.label_fuel": "Fuel:",
+      "gui.tech2.freezer_gui.label_freezer": "Freezer",
+      "gui.tech2.freezer_gui.label_inventory": "Inventory",
+      "item.tech2.machine_block": "Machine Block",
+      "item_group.tech2.tech_2_tab": "Tech 2 Tab",
+      "item.tech2.dyer": "Dyer",
+      "gui.tech2.dyer_gui.label_inventory": "Inventory",
+      "gui.tech2.dyer_gui.label_dyer": "Dyer",
+      "block.tech2.dyer.description_0": "Used for dying baskets"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/eskebre/techsquared/network/MenuStateUpdateMessage.java",
+      "src/main/java/com/eskebre/techsquared/init/Tech2ModScreens.java",
+      "src/main/java/com/eskebre/techsquared/init/Tech2ModMenus.java",
+      "src/main/java/com/eskebre/techsquared/client/renderer/item/LegacyOverrideSelectItemModel.java",
+      "src/main/java/com/eskebre/techsquared/init/Tech2ModBlocks.java",
+      "src/main/java/com/eskebre/techsquared/init/Tech2ModBlockEntities.java",
+      "src/main/java/com/eskebre/techsquared/init/Tech2ModItems.java",
+      "src/main/java/com/eskebre/techsquared/init/Tech2ModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/eskebre/techsquared/Tech2Mod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Upper",
+        "children": []
+      },
+      {
+        "name": "CobblestoneGenerator",
+        "children": []
+      },
+      {
+        "name": "Crusher",
+        "children": []
+      },
+      {
+        "name": "Block Modifiers",
+        "children": []
+      },
+      {
+        "name": "Freezer",
+        "children": []
+      },
+      {
+        "name": "Basket",
+        "children": []
+      },
+      {
+        "name": "Dyer",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tech2",
+    "modName": "Tech Squared",
+    "version": "9.2.0",
+    "author": "Eskebre",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.eskebre.techsquared"
+  },
+  "mcreatorVersion": 202600233518
+}
